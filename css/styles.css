@@ -71,7 +71,7 @@ ul {
     height: 56px;
     border-radius: 4px;
     margin: 0px auto;
-    /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover,:focus {
@@ -325,6 +325,7 @@ color: var(--color-ocean);
     letter-spacing: 0.02em;
     color: var(--color-slate);
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .card-foto {
@@ -361,9 +362,10 @@ color: var(--color-ocean);
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.ashka-icons:hover, :focus {
+.ashka-icons:hover, .ashka-icons:focus {
     background-color: var(--color-ocean);
 }
 
@@ -524,15 +526,14 @@ color: var(--color-ocean);
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-href:hover,:focus {
+.footer-href:hover, .footer-href:focus {
     background-color: var(--color-green);
 }
 
 .team-icons-href {
-    width: 24px;
-    height: 24px;
     fill: var(--color-cloud);
 }
 
@@ -546,9 +547,5 @@ color: var(--color-ocean);
     background-color: var(--color-iris);
 }
 
-svg {
-    width: 24;
-    height: 24px;
-}
 
 
