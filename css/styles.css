@@ -363,7 +363,7 @@ color: var(--color-ocean);
     justify-content: center;
 }
 
-.ashka-icons:hover,:focus {
+.ashka-icons:hover, :focus {
     background-color: var(--color-ocean);
 }
 
@@ -526,7 +526,7 @@ color: var(--color-ocean);
     justify-content: center;
 }
 
-.footer-href:hover, :focus {
+.footer-href:hover,:focus {
     background-color: var(--color-green);
 }
 
@@ -536,10 +536,19 @@ color: var(--color-ocean);
     fill: var(--color-cloud);
 }
 
+.team-icons-footer {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: var(--color-iris);
+}
 
-
-
-
-
+svg {
+    width: 24;
+    height: 24px;
+}
 
 
